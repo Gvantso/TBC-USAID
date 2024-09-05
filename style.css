@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: #222222F2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 21px 0;
+}
+
+.header-content{
+    max-width: 980px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header-list-container{
+    display: flex;
+    gap: 49px;
+    color: #FFFFFF;
+    list-style: none;   
+}
+
+.header-list-container li:nth-child(3) span{
+    color: #00A3E0;
+}
+
+.header-list-container li {
+    color:#FFFFFF;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.header-list-container li:hover span{
+    color: #00A3E0;
+    cursor: pointer;
+}
+
+.header-list-container li span{
+    pointer-events: auto;
+}
+
+.tbc-logo {
+    cursor: pointer;
+}
+
+.background-image{
+    height: 352px;
+    width: 100%;
+    background-image: url(./assets/08e157534fbd928aa8049cc643a40c2c.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
